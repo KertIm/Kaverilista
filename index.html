@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaverilista</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        
+        <script src="lista.js"></script>
+
+        <h1>Kaverilista</h1>
+
+        <label for="fname">Syötä nimi:</label><br>
+        <input type="text" id="text1"></input>
+        <!--buttons down-->
+        <input type="button" id="button1" value="Lisää" onclick="add_element_to_array();"></input>
+        <input type="button" id="button2" value="Poista" onclick="remove_element();"></input>
+        <input type="button" id="button2" value="Järjestä" onclick="sort_element();"></input>
+        <input type="button" id="button2" value="Display" onclick="display_array();"></input>
+
+
+        <div id="Result"></div>   <!--array print-->
+        
+        <p id="testing"></p>   <!--testing-->
+        <div id="testing"></div>
+
+        <p id="demo"></p>
+        
+    </header>
+    
+</body>
+</html>
